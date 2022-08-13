@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot-falcon",
+  "version": "1.0.0",
+  "description": "A discord bot for fun.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/bot.js",
+    "start": "node ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^14.2.0",
+    "dotenv": "^16.0.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
